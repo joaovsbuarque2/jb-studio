@@ -1,0 +1,187 @@
+baseURL: 'https://jbstudio.com.br/'
+title: JB Studio
+locale: pt-br
+theme: tailbliss
+DefaultContentLanguage: pt-br
+enableEmoji: true
+enableGitInfo: false
+enableRobotsTXT: true
+canonifyURLs: false
+pagination:
+  pagerSize: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: JB Studio
+  authorimage: ../assets/images/global/author.webp
+  og_image: /images/jb-studio-cover.png
+  moto: "Apps e Sites que transformam ideias em realidade"
+  description: "JB Studio - Desenvolvimento de apps e sites modernos, rápidos e responsivos."
+  disable_theme_toggle: false
+  disable_stay_uptodate: true
+
+  p1:
+    heading: "Sobre o JB Studio"
+    image: "images/pages/our-mission.png"
+    content:
+      - text: "O JB Studio é um estúdio digital fundado por Joao Vitor Buarque, um desenvolvedor que começou a programar por curiosidade aos 18 anos e desde então construiu uma carreira sólida no desenvolvimento mobile e web. Com passagens por empresas como Getty e Klever (Crypto & NFT Market), Joao traz uma visão única para cada projeto."
+      - text: "Acreditamos que tecnologia bem construída transforma negócios. Por isso, cada projeto é tratado como uma parceria verdadeira, com foco em resultados, performance e experiência do usuário. Nosso processo é aberto, transparente e colaborativo."
+      - text: "Nossos valores fundamentais: Inovação — explorar novas tecnologias para criar soluções diferenciadas. Transparência — processos abertos e roadmaps claros. Propósito — resolver problemas reais com cada linha de código. Mobile-First — tudo começa pelo mobile, rápido e responsivo. Excelência — design moderno, alta performance e código limpo."
+  p2:
+    heading: "Nossa Metodologia de Trabalho"
+    image: "images/pages/hacktoberfest.jpg"
+    content:
+      - text: "Do conceito ao lançamento, seguimos um processo ágil e transparente em 5 etapas. Cada fase é pensada para entregar valor real, com validação constante e evolução contínua."
+      - text: "1. Descoberta — Analisamos cenários, mapeamos problemas reais e definimos objetivos. 2. Planejamento — Estratégia clara com definição de metas, prazos e entregáveis. 3. Prototipagem — Validação ágil com protótipos funcionais para testar ideias antes de construir. 4. Desenvolvimento — Construção sólida com tecnologias modernas, código limpo e boas práticas. 5. Evolução Contínua — Métricas, feedback dos usuários e melhorias iterativas pós-lançamento."
+  p3:
+    heading: "Nossos Projetos"
+    description: "Cada projeto do JB Studio é uma vitrine de tecnologia e inovação. Conheça nossos principais produtos em desenvolvimento."
+    projetos:
+      - name: "Velo"
+        full_name: "Velo — PIX Recorrente"
+        description: "Aplicativo mobile para cobranças recorrentes via PIX, desenvolvido para freelancers (MEIs) e profissionais autônomos que precisam de faturamento recorrente automatizado."
+        status: "MVP 75%"
+        status_color: "yellow"
+        tags: ["React Native", "Firebase", "Mercado Pago", "TypeScript"]
+        url: "/projetos/velo/"
+      - name: "Eleva"
+        full_name: "Eleva — Produtividade Gamificada"
+        description: "App que transforma tarefas do dia a dia em missões épicas com XP, torneios, rankings e desafios sociais. Produtividade que evolui com você."
+        status: "Beta"
+        status_color: "green"
+        tags: ["React Native", "Expo", "Firebase", "Gamificação"]
+        url: "/projetos/eleva/"
+
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/jb-studio'
+    facebook:
+      enabled: false
+      url: '#'
+    instagram:
+      enabled: true
+      url: 'https://instagram.com/jbstudio'
+    twitter:
+      enabled: false
+      url: '#'
+
+menu:
+  main:
+    - identifier: home
+      name: Início
+      url: /
+      weight: 10
+    - identifier: about
+      name: Sobre
+      url: /about/
+      weight: 20
+    - identifier: servicos
+      name: Serviços
+      url: /servicos/
+      weight: 30
+    - identifier: projetos
+      pre: dropdown
+      name: Projetos
+      weight: 40
+    - identifier: contact
+      name: Contato
+      url: /contact/
+      weight: 50
+  projetos:
+    - identifier: velo
+      name: Velo — PIX Recorrente
+      url: /projetos/velo/
+      weight: 10
+    - identifier: eleva
+      name: Eleva — Produtividade Gamificada
+      url: /projetos/eleva/
+      weight: 20
+  footer:
+    - identifier: about
+      name: Sobre
+      url: /about/
+      weight: 10
+    - identifier: servicos
+      name: Serviços
+      url: /servicos/
+      weight: 20
+    - identifier: projetos
+      name: Projetos
+      url: /projetos/
+      weight: 30
+    - identifier: contact
+      name: Contato
+      url: /contact/
+      weight: 50
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.148.2"
+
+ignoreFiles:
+  - "themes/tailbliss/content/"

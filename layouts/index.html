@@ -1,0 +1,110 @@
+{{ define "main" }}
+<main>
+    <div class="bg-gradient-to-br from-primary-700 via-primary-800 to-secondary-900">
+        <div class="px-4 py-20 mx-auto max-w-5xl sm:px-6 lg:py-32">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="mb-4 text-5xl font-extrabold tracking-tight text-white sm:text-6xl xl:text-7xl">
+                    {{ .Site.Title }}
+                </h1>
+                <h2 class="pb-2 text-2xl font-light text-primary-200 sm:text-3xl">
+                    {{ .Site.Params.Moto }}
+                </h2>
+                <p class="mx-auto mt-6 max-w-2xl text-lg text-white/70">
+                    {{ .Site.Params.Description}}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre section -->
+    <div class="px-4 py-16 mx-auto max-w-5xl sm:px-6 lg:py-24">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                {{ .Site.Params.P1.Heading }}
+            </h2>
+            <div class="mt-6 space-y-6 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                {{ range .Site.Params.P1.Content }}
+                <p>
+                    {{ .text }}
+                </p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <!-- Metodologia section -->
+    <div class="bg-gray-100 dark:bg-gray-900/50">
+        <div class="px-4 py-16 mx-auto max-w-5xl sm:px-6 lg:py-24">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl mb-8">
+                    {{ .Site.Params.P2.Heading }}
+                </h2>
+                <div class="space-y-6 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                    {{ range .Site.Params.P2.Content }}
+                    <p>
+                        {{ .text }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projetos section -->
+    <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:py-24">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                {{ .Site.Params.P3.Heading }}
+            </h2>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-500 dark:text-gray-400">
+                {{ .Site.Params.P3.Description }}
+            </p>
+        </div>
+        <div class="grid gap-8 lg:grid-cols-2">
+            {{ range .Site.Params.P3.Projetos }}
+            <div class="flex flex-col bg-white rounded-2xl shadow-lg dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+                <div class="flex-1 p-8 flex flex-col">
+                    <div class="flex items-start gap-3 mb-4">
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                            {{ .full_name }}
+                        </h3>
+                        {{ $statusColor := .status_color }}
+                        {{ with .status }}
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap
+                            {{ if eq $statusColor "green" }}
+                                bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200
+                            {{ else if eq $statusColor "yellow" }}
+                                bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200
+                            {{ else }}
+                                bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200
+                            {{ end }}">
+                            {{ . }}
+                        </span>
+                        {{ end }}
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6 flex-1 leading-relaxed">
+                        {{ .description }}
+                    </p>
+                    <div class="mb-6">
+                        <div class="flex flex-wrap gap-2">
+                            {{ range .tags }}
+                            <span class="inline-flex items-center px-3 py-1 rounded-md text-sm font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200">
+                                {{ . }}
+                            </span>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <a href="{{ .url }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-semibold hover:underline">
+                        Ver detalhes do projeto
+                        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+</main>
+{{ end }}
