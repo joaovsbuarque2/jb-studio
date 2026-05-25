@@ -91,13 +91,13 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/jb-studio'
+      url: 'https://github.com/joaovsbuarque2'
     facebook:
       enabled: false
       url: '#'
     instagram:
       enabled: true
-      url: 'https://instagram.com/jbstudio'
+      url: 'https://www.instagram.com/joaovitorbuarque/'
     twitter:
       enabled: false
       url: '#'
