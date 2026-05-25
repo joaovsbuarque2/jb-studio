@@ -1,47 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>JB Studio</title>
-    <link>http://localhost:1313/jb-studio/</link>
-    <description>Recent content on JB Studio</description>
-    <generator>Hugo</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/jb-studio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contato</title>
-      <link>http://localhost:1313/jb-studio/contact/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/contact/</guid>
-      <description>&lt;section class=&#34;lg:pb-24&#34;&gt;&#xA;  &lt;div class=&#34;max-w-screen-md px-4 mx-auto&#34;&gt;&#xA;      &lt;p class=&#34;mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl&#34;&gt;Tem um projeto em mente? Quer saber mais sobre nossos serviços? Mande uma mensagem!&lt;/p&gt;&#xA;      &lt;form name=&#34;contact&#34; action=&#34;https://formsubmit.co/contato@jbstudio.com.br&#34; method=&#34;POST&#34; class=&#34;space-y-8&#34;&gt;&#xA;          &lt;div class=&#34;my-4&#34;&gt;&#xA;              &lt;label for=&#34;email&#34; class=&#34;block mb-2 font-medium text-gray-900 text-md dark:text-gray-300&#34;&gt;&lt;strong&gt;Seu Email:&lt;/strong&gt;&lt;/label&gt;&#xA;              &lt;input type=&#34;email&#34; name=&#34;email&#34; class=&#34;shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light&#34; placeholder=&#34;nome@exemplo.com&#34; required&gt;&#xA;          &lt;/div&gt;&#xA;          &lt;div class=&#34;my-4&#34;&gt;&#xA;              &lt;label for=&#34;subject&#34; class=&#34;block mb-2 font-medium text-gray-900 text-md dark:text-gray-300&#34;&gt;&lt;strong&gt;Assunto:&lt;/strong&gt;&lt;/label&gt;&#xA;              &lt;input type=&#34;text&#34; name=&#34;subject&#34; class=&#34;block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light&#34; placeholder=&#34;Como podemos ajudar?&#34; required&gt;&#xA;          &lt;/div&gt;&#xA;          &lt;div class=&#34;my-4 sm:col-span-2&#34;&gt;&#xA;              &lt;label for=&#34;message&#34; class=&#34;block mb-2 font-medium text-gray-900 text-md dark:text-gray-400&#34;&gt;&lt;strong&gt;Mensagem:&lt;/strong&gt;&lt;/label&gt;&#xA;              &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;6&#34; class=&#34;block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500&#34; placeholder=&#34;Conte sobre seu projeto...&#34;&gt;&lt;/textarea&gt;&#xA;          &lt;/div&gt;&#xA;          &lt;div class=&#34;mt-6 lg:pb-16&#34;&gt;&#xA;             &lt;button type=&#34;submit&#34; class=&#34;px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800&#34;&gt;Enviar Mensagem&lt;/button&gt;&#xA;          &lt;/div&gt;&#xA;      &lt;/form&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;</description>
-    </item>
-    <item>
-      <title>Eleva — Produtividade Gamificada</title>
-      <link>http://localhost:1313/jb-studio/projetos/eleva/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/projetos/eleva/</guid>
-      <description>&lt;h2 id=&#34;o-problema&#34;&gt;O Problema&lt;/h2&gt;&#xA;&lt;p&gt;Apps de produtividade tradicionais são cinzas, entediantes e impessoais. O usuário baixa, usa por 3 dias, e abandona. A culpa não é da pessoa — é do design. Listas intermináveis de tarefas sem contexto, sem recompensa, sem propósito.&lt;/p&gt;&#xA;&lt;p&gt;O cérebro humano responde a estímulos: desafios, recompensas, progressão, competição. Os apps mais engajadores do mundo (jogos, redes sociais) usam esses gatilhos. Por que a produtividade não pode fazer o mesmo?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Serviços</title>
-      <link>http://localhost:1313/jb-studio/servicos/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/servicos/</guid>
-      <description>&lt;h2 id=&#34;desenvolvimento-web&#34;&gt;Desenvolvimento Web&lt;/h2&gt;&#xA;&lt;p&gt;Criamos sites e aplicações web modernas, rápidas e responsivas utilizando as melhores tecnologias do mercado.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tecnologias:&lt;/strong&gt; React, Next.js, Vue.js, Angular, Hugo, Tailwind CSS&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Entregáveis:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sites institucionais e landing pages&lt;/li&gt;&#xA;&lt;li&gt;Dashboards e painéis administrativos&lt;/li&gt;&#xA;&lt;li&gt;Aplicações web completas com autenticação e banco de dados&lt;/li&gt;&#xA;&lt;li&gt;Performance otimizada e SEO&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;desenvolvimento-mobile&#34;&gt;Desenvolvimento Mobile&lt;/h2&gt;&#xA;&lt;p&gt;Aplicativos nativos e multiplataforma que rodam com fluidez em iOS e Android.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tecnologias:&lt;/strong&gt; React Native, Expo, Firebase&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Entregáveis:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apps do zero ao lançamento nas lojas&lt;/li&gt;&#xA;&lt;li&gt;Integração com APIs e serviços terceiros&lt;/li&gt;&#xA;&lt;li&gt;Notificações push e mensagens em tempo real&lt;/li&gt;&#xA;&lt;li&gt;Pagamentos in-app e assinaturas&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;uiux-design&#34;&gt;UI/UX Design&lt;/h2&gt;&#xA;&lt;p&gt;Interfaces bonitas, funcionais e centradas no usuário. Do wireframe ao protótipo navegável.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sobre</title>
-      <link>http://localhost:1313/jb-studio/about/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/about/</guid>
-      <description>&lt;h2 id=&#34;o-estúdio&#34;&gt;O Estúdio&lt;/h2&gt;&#xA;&lt;p&gt;O &lt;strong&gt;JB Studio&lt;/strong&gt; é um estúdio digital focado em desenvolvimento de aplicativos mobile e web. Nasceu da visão de que tecnologia bem construída pode transformar ideias em realidade — de forma rápida, performática e com excelência.&lt;/p&gt;&#xA;&lt;p&gt;Aqui cada projeto tem seu próprio espaço para brilhar. Trabalhamos como um verdadeiro &amp;ldquo;armazém de ideias&amp;rdquo;, onde conceitos ganham vida através de código limpo, design moderno e experiências intuitivas.&lt;/p&gt;&#xA;&lt;h2 id=&#34;o-fundador&#34;&gt;O Fundador&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Joao Vitor Buarque&lt;/strong&gt; começou a programar aos 18 anos movido por curiosidade. O que era apenas um hobby rapidamente se transformou em carreira, com passagens por empresas como &lt;strong&gt;Getty&lt;/strong&gt; e &lt;strong&gt;Klever&lt;/strong&gt; (Crypto &amp;amp; NFT Market).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Velo — PIX Recorrente</title>
-      <link>http://localhost:1313/jb-studio/projetos/velo/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/projetos/velo/</guid>
-      <description>&lt;h2 id=&#34;o-problema&#34;&gt;O Problema&lt;/h2&gt;&#xA;&lt;p&gt;Freelancers, MEIs e profissionais autônomos enfrentam um desafio recorrente — literalmente. Gerenciar cobranças mensais de clientes de forma manual é ineficiente, propenso a erros e consome tempo precioso que poderia ser usado para crescer o negócio.&lt;/p&gt;&#xA;&lt;p&gt;Soluções tradicionais exigem maquininhas de cartão, contratos com bancos ou sistemas complexos de ERP. O &lt;strong&gt;Velo&lt;/strong&gt; nasceu para resolver isso: uma ferramenta mobile simples e direta que automatiza cobranças recorrentes via PIX, o meio de pagamento mais popular do Brasil.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JB Studio</title><link>https://joaovsbuarque2.github.io/jb-studio/</link><description>Recent content on JB Studio</description><generator>Hugo</generator><language>pt-br</language><lastBuildDate>Mon, 15 Jan 2024 10:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/jb-studio/index.xml" rel="self" type="application/rss+xml"/><item><title>Contato</title><link>https://joaovsbuarque2.github.io/jb-studio/contact/</link><pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate><guid>https://joaovsbuarque2.github.io/jb-studio/contact/</guid><description>&lt;section class="lg:pb-24"&gt;
+ &lt;div class="max-w-screen-md px-4 mx-auto"&gt;
+ &lt;p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl"&gt;Tem um projeto em mente? Quer saber mais sobre nossos serviços? Mande uma mensagem!&lt;/p&gt;
+ &lt;form name="contact" action="https://formsubmit.co/contato@jbstudio.com.br" method="POST" class="space-y-8"&gt;
+ &lt;div class="my-4"&gt;
+ &lt;label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"&gt;&lt;strong&gt;Seu Email:&lt;/strong&gt;&lt;/label&gt;
+ &lt;input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="nome@exemplo.com" required&gt;
+ &lt;/div&gt;
+ &lt;div class="my-4"&gt;
+ &lt;label for="subject" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"&gt;&lt;strong&gt;Assunto:&lt;/strong&gt;&lt;/label&gt;
+ &lt;input type="text" name="subject" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="Como podemos ajudar?" required&gt;
+ &lt;/div&gt;
+ &lt;div class="my-4 sm:col-span-2"&gt;
+ &lt;label for="message" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-400"&gt;&lt;strong&gt;Mensagem:&lt;/strong&gt;&lt;/label&gt;
+ &lt;textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500" placeholder="Conte sobre seu projeto..."&gt;&lt;/textarea&gt;
+ &lt;/div&gt;
+ &lt;div class="mt-6 lg:pb-16"&gt;
+ &lt;button type="submit" class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"&gt;Enviar Mensagem&lt;/button&gt;
+ &lt;/div&gt;
+ &lt;/form&gt;
+ &lt;/div&gt;
+&lt;/section&gt;</description></item><item><title>Eleva — Produtividade Gamificada</title><link>https://joaovsbuarque2.github.io/jb-studio/projetos/eleva/</link><pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate><guid>https://joaovsbuarque2.github.io/jb-studio/projetos/eleva/</guid><description>&lt;h2 id="o-problema"&gt;O Problema&lt;/h2&gt;
+&lt;p&gt;Apps de produtividade tradicionais são cinzas, entediantes e impessoais. O usuário baixa, usa por 3 dias, e abandona. A culpa não é da pessoa — é do design. Listas intermináveis de tarefas sem contexto, sem recompensa, sem propósito.&lt;/p&gt;
+&lt;p&gt;O cérebro humano responde a estímulos: desafios, recompensas, progressão, competição. Os apps mais engajadores do mundo (jogos, redes sociais) usam esses gatilhos. Por que a produtividade não pode fazer o mesmo?&lt;/p&gt;</description></item><item><title>Serviços</title><link>https://joaovsbuarque2.github.io/jb-studio/servicos/</link><pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate><guid>https://joaovsbuarque2.github.io/jb-studio/servicos/</guid><description>&lt;h2 id="desenvolvimento-web"&gt;Desenvolvimento Web&lt;/h2&gt;
+&lt;p&gt;Criamos sites e aplicações web modernas, rápidas e responsivas utilizando as melhores tecnologias do mercado.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tecnologias:&lt;/strong&gt; React, Next.js, Vue.js, Angular, Hugo, Tailwind CSS&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entregáveis:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sites institucionais e landing pages&lt;/li&gt;
+&lt;li&gt;Dashboards e painéis administrativos&lt;/li&gt;
+&lt;li&gt;Aplicações web completas com autenticação e banco de dados&lt;/li&gt;
+&lt;li&gt;Performance otimizada e SEO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="desenvolvimento-mobile"&gt;Desenvolvimento Mobile&lt;/h2&gt;
+&lt;p&gt;Aplicativos nativos e multiplataforma que rodam com fluidez em iOS e Android.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tecnologias:&lt;/strong&gt; React Native, Expo, Firebase&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entregáveis:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apps do zero ao lançamento nas lojas&lt;/li&gt;
+&lt;li&gt;Integração com APIs e serviços terceiros&lt;/li&gt;
+&lt;li&gt;Notificações push e mensagens em tempo real&lt;/li&gt;
+&lt;li&gt;Pagamentos in-app e assinaturas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="uiux-design"&gt;UI/UX Design&lt;/h2&gt;
+&lt;p&gt;Interfaces bonitas, funcionais e centradas no usuário. Do wireframe ao protótipo navegável.&lt;/p&gt;</description></item><item><title>Sobre</title><link>https://joaovsbuarque2.github.io/jb-studio/about/</link><pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate><guid>https://joaovsbuarque2.github.io/jb-studio/about/</guid><description>&lt;h2 id="o-estúdio"&gt;O Estúdio&lt;/h2&gt;
+&lt;p&gt;O &lt;strong&gt;JB Studio&lt;/strong&gt; é um estúdio digital focado em desenvolvimento de aplicativos mobile e web. Nasceu da visão de que tecnologia bem construída pode transformar ideias em realidade — de forma rápida, performática e com excelência.&lt;/p&gt;
+&lt;p&gt;Aqui cada projeto tem seu próprio espaço para brilhar. Trabalhamos como um verdadeiro &amp;ldquo;armazém de ideias&amp;rdquo;, onde conceitos ganham vida através de código limpo, design moderno e experiências intuitivas.&lt;/p&gt;
+&lt;h2 id="o-fundador"&gt;O Fundador&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Joao Vitor Buarque&lt;/strong&gt; começou a programar aos 18 anos movido por curiosidade. O que era apenas um hobby rapidamente se transformou em carreira, com passagens por empresas como &lt;strong&gt;Getty&lt;/strong&gt; e &lt;strong&gt;Klever&lt;/strong&gt; (Crypto &amp;amp; NFT Market).&lt;/p&gt;</description></item><item><title>Velo — PIX Recorrente</title><link>https://joaovsbuarque2.github.io/jb-studio/projetos/velo/</link><pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate><guid>https://joaovsbuarque2.github.io/jb-studio/projetos/velo/</guid><description>&lt;h2 id="o-problema"&gt;O Problema&lt;/h2&gt;
+&lt;p&gt;Freelancers, MEIs e profissionais autônomos enfrentam um desafio recorrente — literalmente. Gerenciar cobranças mensais de clientes de forma manual é ineficiente, propenso a erros e consome tempo precioso que poderia ser usado para crescer o negócio.&lt;/p&gt;
+&lt;p&gt;Soluções tradicionais exigem maquininhas de cartão, contratos com bancos ou sistemas complexos de ERP. O &lt;strong&gt;Velo&lt;/strong&gt; nasceu para resolver isso: uma ferramenta mobile simples e direta que automatiza cobranças recorrentes via PIX, o meio de pagamento mais popular do Brasil.&lt;/p&gt;</description></item></channel></rss>

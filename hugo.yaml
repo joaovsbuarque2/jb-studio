@@ -79,14 +79,14 @@ params:
         status: "MVP 75%"
         status_color: "yellow"
         tags: ["React Native", "Firebase", "Mercado Pago", "TypeScript"]
-        url: "/projetos/velo/"
+        url: "projetos/velo/"
       - name: "Eleva"
         full_name: "Eleva — Produtividade Gamificada"
         description: "App que transforma tarefas do dia a dia em missões épicas com XP, torneios, rankings e desafios sociais. Produtividade que evolui com você."
         status: "Beta"
         status_color: "green"
         tags: ["React Native", "Expo", "Firebase", "Gamificação"]
-        url: "/projetos/eleva/"
+        url: "projetos/eleva/"
 
   social_media:
     github:
