@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on JB Studio</title>
-    <link>http://localhost:1313/jb-studio/categories/</link>
+    <link>https://joaovsbuarque2.github.io/jb-studio/categories/</link>
     <description>Recent content in Categories on JB Studio</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <atom:link href="http://localhost:1313/jb-studio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://joaovsbuarque2.github.io/jb-studio/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

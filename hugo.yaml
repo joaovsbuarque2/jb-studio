@@ -117,10 +117,6 @@ menu:
       pre: dropdown
       name: Projetos
       weight: 40
-    - identifier: contact
-      name: Contato
-      url: /contact/
-      weight: 50
   projetos:
     - identifier: velo
       name: Velo — PIX Recorrente

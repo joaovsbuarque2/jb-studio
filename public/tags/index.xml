@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on JB Studio</title>
-    <link>http://localhost:1313/jb-studio/tags/</link>
+    <link>https://joaovsbuarque2.github.io/jb-studio/tags/</link>
     <description>Recent content in Tags on JB Studio</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 15 Jan 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/jb-studio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://joaovsbuarque2.github.io/jb-studio/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expo</title>
-      <link>http://localhost:1313/jb-studio/tags/expo/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/expo/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/expo/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/expo/</guid>
       <description></description>
     </item>
     <item>
       <title>Firebase</title>
-      <link>http://localhost:1313/jb-studio/tags/firebase/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/firebase/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/firebase/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/firebase/</guid>
       <description></description>
     </item>
     <item>
       <title>Gamificação</title>
-      <link>http://localhost:1313/jb-studio/tags/gamifica%C3%A7%C3%A3o/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/gamifica%C3%A7%C3%A3o/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/gamifica%C3%A7%C3%A3o/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/gamifica%C3%A7%C3%A3o/</guid>
       <description></description>
     </item>
     <item>
       <title>Mercado Pago</title>
-      <link>http://localhost:1313/jb-studio/tags/mercado-pago/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/mercado-pago/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/mercado-pago/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/mercado-pago/</guid>
       <description></description>
     </item>
     <item>
       <title>PIX</title>
-      <link>http://localhost:1313/jb-studio/tags/pix/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/pix/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/pix/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/pix/</guid>
       <description></description>
     </item>
     <item>
       <title>Produtividade</title>
-      <link>http://localhost:1313/jb-studio/tags/produtividade/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/produtividade/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/produtividade/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/produtividade/</guid>
       <description></description>
     </item>
     <item>
       <title>React Native</title>
-      <link>http://localhost:1313/jb-studio/tags/react-native/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/react-native/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/react-native/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/react-native/</guid>
       <description></description>
     </item>
     <item>
       <title>TypeScript</title>
-      <link>http://localhost:1313/jb-studio/tags/typescript/</link>
+      <link>https://joaovsbuarque2.github.io/jb-studio/tags/typescript/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/jb-studio/tags/typescript/</guid>
+      <guid>https://joaovsbuarque2.github.io/jb-studio/tags/typescript/</guid>
       <description></description>
     </item>
   </channel>
