@@ -95,9 +95,6 @@ params:
     facebook:
       enabled: false
       url: '#'
-    instagram:
-      enabled: true
-      url: 'https://www.instagram.com/joaovitorbuarque/'
     twitter:
       enabled: false
       url: '#'
@@ -163,9 +160,6 @@ privacy:
     disable: false
     respectDoNotTrack: false
     useSessionStorage: false
-  instagram:
-    disable: false
-    simple: false
   twitter:
     disable: false
     enableDNT: false

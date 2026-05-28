@@ -61,6 +61,51 @@ Envio automático da cobrança via WhatsApp com QR Code PIX incluso. O cliente r
 | **Expansão** | Emails transacionais, relatórios PDF, emissão de NFS-e, cartão de crédito, multilíngue, backups | 📅 Planejado |
 | **Scale** | API pública, white-label, analytics avançado, multi-moeda, integração ERP, insights com IA | 📅 Futuro |
 
+## Galeria
+
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 my-8">
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/dashboard-page.jpeg" alt="Dashboard financeiro do Velo" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Dashboard financeiro</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/clientes-page.jpeg" alt="Lista de clientes no Velo" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Gestão de clientes</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/cobrança-page.jpeg" alt="Tela de cobranças do Velo" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Cobranças recorrentes</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/modal-nova-cobrança.jpeg" alt="Modal de nova cobrança" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Nova cobrança</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/modal-novo-cliente.jpeg" alt="Modal de novo cliente" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Novo cliente</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/modal-cobranças-historico.jpeg" alt="Histórico de cobranças" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Histórico de cobranças</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/modal-lembrete.jpeg" alt="Modal de lembrete de cobrança" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Lembrete de cobrança</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/popup-cadastro-cliente.jpeg" alt="Popup de cadastro de cliente" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Cadastro de cliente</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/popup-cobrança-gerada.jpeg" alt="Popup de cobrança gerada com sucesso" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Cobrança gerada</figcaption>
+  </figure>
+  <figure class="rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-800 max-w-[260px] mx-auto">
+    {{< imgc src="projetos/velo/perfil-page.jpeg" alt="Tela de perfil do usuário" >}}
+    <figcaption class="p-2 text-xs text-center text-gray-600 dark:text-gray-400">Perfil do usuário</figcaption>
+  </figure>
+</div>
+
 ## KPIs de Referência
 
 - **99%** de uptime garantido
